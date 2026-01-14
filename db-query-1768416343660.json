@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO users (username, passwordHash, name, role, isBlocked) VALUES ('admin123', '$2a$10$3RQkBqKDXVEKFIxvXqvZx.4Xb2Dq3Kj2L9M8N7O6P5Q4R3S2T1U0', 'Administrator', 'admin', false) ON DUPLICATE KEY UPDATE role = 'admin';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4QDgUsR6hfwyBAU.root --database nPMhogXKA33f5SqDdoKpMn --execute INSERT INTO users (username, passwordHash, name, role, isBlocked) VALUES ('admin123', '$2a$10$3RQkBqKDXVEKFIxvXqvZx.4Xb2Dq3Kj2L9M8N7O6P5Q4R3S2T1U0', 'Administrator', 'admin', false) ON DUPLICATE KEY UPDATE role = 'admin';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 509
+}
