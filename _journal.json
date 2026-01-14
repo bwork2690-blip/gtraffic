@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1768416045639,
+      "tag": "0000_gifted_vindicator",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1768416214350,
+      "tag": "0001_cold_loners",
+      "breakpoints": true
+    }
+  ]
+}
